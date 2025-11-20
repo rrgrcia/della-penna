@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Montserrat, Playfair_Display } from "next/font/google";
 import React from "react";
 import "./globals.css";
-import { LanguageProvider } from "./components/LanguageProvider";
+import { LanguageProvider } from "./contexts/LanguageContext";
 
 const montserrat = Montserrat({
   subsets: ["latin"],

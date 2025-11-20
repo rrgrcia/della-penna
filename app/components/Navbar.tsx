@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import { useLanguage } from "./LanguageProvider";
+import { useLanguage } from "../contexts/LanguageContext";
 import LanguageSelector from "./LanguageSelector";
 
 const navItems = [

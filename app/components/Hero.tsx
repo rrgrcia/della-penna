@@ -3,7 +3,7 @@
 import { useRef, useEffect, useState } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { ChevronDown, Award, Globe, Users, Sparkles } from "lucide-react";
-import { useLanguage } from "./LanguageProvider";
+import { useLanguage } from "../contexts/LanguageContext";
 
 export default function Hero() {
   const { t } = useLanguage();

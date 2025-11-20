@@ -5,7 +5,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { Clock } from "lucide-react";
 import SectionTitle from "./SectionTitle";
-import { useLanguage } from "./LanguageProvider";
+import { useLanguage } from "../contexts/LanguageContext";
 
 const historyImages = [
   "http://www.dellapenna.it/it/sites/default/files/styles/people_650_500/public/00-dellaPenna-Fiat-18BL-Emilio%2520della%2520PENNA-1911.jpg",

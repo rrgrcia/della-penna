@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronDown } from "lucide-react";
-import { useLanguage } from "./LanguageProvider";
+import { useLanguage } from "../contexts/LanguageContext";
 
 const languages = [
   { code: "en" as const, name: "English", flag: "🇬🇧" },

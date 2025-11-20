@@ -5,7 +5,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { MapPin, Phone, Mail, Building2 } from "lucide-react";
 import SectionTitle from "./SectionTitle";
-import { useLanguage } from "./LanguageProvider";
+import { useLanguage } from "../contexts/LanguageContext";
 
 export default function Contact() {
   const { t } = useLanguage();

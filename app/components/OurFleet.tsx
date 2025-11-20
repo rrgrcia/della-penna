@@ -6,7 +6,7 @@ import { useInView } from "react-intersection-observer";
 import { Wifi, Snowflake, Video, Navigation, Shield, Wrench } from "lucide-react";
 import SectionTitle from "./SectionTitle";
 import FleetGallery from "./FleetGallery";
-import { useLanguage } from "./LanguageProvider";
+import { useLanguage } from "../contexts/LanguageContext";
 
 export default function OurFleet() {
   const { t } = useLanguage();

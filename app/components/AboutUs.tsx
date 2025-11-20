@@ -5,7 +5,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { Award, TrendingUp, Shield, Star } from "lucide-react";
 import SectionTitle from "./SectionTitle";
-import { useLanguage } from "./LanguageProvider";
+import { useLanguage } from "../contexts/LanguageContext";
 
 export default function AboutUs() {
   const { t } = useLanguage();
